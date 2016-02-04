@@ -6,12 +6,20 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-top: 200px;
+  background-color: white;
 }
 
 .col-md-4 {
   text-align: center;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   border-right: 1px dashed black;
+}
+
+#container {
+  background-color: white;
+  color: #444;
+  width: 300px;
+  height: 150px;
 }
 
 .col-md-4:last-child {
@@ -31,7 +39,6 @@ i {
   .col-md-4 {
     border-right: 0px dashed black;
     border-bottom: 1px dashed black;
-    width: 300px;
     margin: auto auto;
   }
 

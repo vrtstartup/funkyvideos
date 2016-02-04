@@ -14,12 +14,12 @@
         });
     };
 
-    // window.setInterval(function(){
-    //     generateImg();
-    // }, 1000);
+    window.setInterval(function(){
+        generateImg();
+    }, 1000);
 
     $('.counter').counterUp({
-      delay: 2000,
+      delay: 1000,
       time: 1000000
     });
 
