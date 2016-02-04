@@ -16,9 +16,9 @@
         });
     };
 
-    // window.setInterval(function(){
-    //     generateImg();
-    // }, 100);
+    window.setInterval(function(){
+        generateImg();
+    }, 100);
 
 
     var d = function(a, b) {
@@ -218,7 +218,6 @@
                 c(this).queue("circular", function(a) {
                     (this.activeAnimationThread = new q({
                         onLoop: function() {
-                            console.log('onLoop');
                             return f.apply(this, arguments);
                         },
                         afterStop: function() {
